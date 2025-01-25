@@ -1,0 +1,46 @@
+div{
+   text-align: center;
+   margin-top: 200px;
+   width: 100%;
+
+}
+input[type="email"]{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+input[type="email"]:focus{
+    background-color: rgba(0, 0, 255, 0.514);
+}
+input[type="email"]:invalid{
+    background-color: red;
+}
+input[type="email"]:hover{
+    width: 200px;
+   
+}
+input[type="password"]:focus{
+    background-color: aqua;
+}
+input[type="password"]:invalid{
+    background-color: red;
+}
+input[type="password"]:hover{
+    width:200px ;
+}
+input[type="button"]{
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: rgb(54, 28, 206);
+}
+input[type="button"]:hover{
+    background-color: rgb(30, 187, 43);
+    width: 70px;
+}
+body{
+    background-image: linear-gradient( to bottom,green,blue);
+ background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+
